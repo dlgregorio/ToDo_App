@@ -1,4 +1,7 @@
-name: webapp_ToDoApp
-description: A sample web application
+name: poly_ToDoApp
+description: A sample Polymer application
 dependencies:
-  browser: any
+    polymer: ">=0.11.0 <0.12.0"
+transformers:
+- polymer:
+    entry_points: web/poly_todoapp.html
